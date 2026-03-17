@@ -27,6 +27,11 @@ app.use(
 );
 app.use(express.json());
 
+// ── Root endpoint ──────────────────────────────────────────────────────────
+app.get("/", (_, res) => {
+  res.json({ message: "HaqMehr Calculator API", status: "running" });
+});
+
 // ── Health check ──────────────────────────────────────────────────────────
 app.get("/api/health", (_, res) => {
   res.json({ status: "ok", timestamp: new Date().toISOString() });
