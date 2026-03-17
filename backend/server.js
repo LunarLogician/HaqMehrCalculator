@@ -12,6 +12,7 @@ const allowedOrigins = [
   "http://127.0.0.1:5173",
   "https://dowry-calculator-two.vercel.app",
   "https://haq-mehr-calculator.vercel.app",
+  "https://haq-mehr-calculator-1tx2.vercel.app",
   ...(process.env.FRONTEND_URL ? [process.env.FRONTEND_URL] : []),
 ];
 
