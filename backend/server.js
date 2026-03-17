@@ -13,6 +13,7 @@ const allowedOrigins = [
   "https://dowry-calculator-two.vercel.app",
   "https://haq-mehr-calculator.vercel.app",
   "https://haq-mehr-calculator-1tx2.vercel.app",
+  "https://haq-mehr-calculator-hlij.vercel.app",
   ...(process.env.FRONTEND_URL ? [process.env.FRONTEND_URL] : []),
 ];
 
